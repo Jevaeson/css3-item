@@ -1,0 +1,92 @@
+header{
+    width: 5.8rem;
+    line-height: 0.88rem;
+    background-color: #50bbdb;
+    padding: 0rem 0.3rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color:#fff;
+    position:relative;
+}
+header a{
+   display: block;
+   width: 0.43rem;
+   height: 0.43rem;
+   background-image: url(../images/back.png);
+   background-repeat: no-repeat;
+   -webkit-background-size: 100%;
+   background-size: 100%;
+   position:absolute;
+   margin-top: 0.22rem;
+}
+header a:last-child{
+   background: none;
+   font-size: 0.2rem;
+   color:#fff;
+   position:absolute;
+   top:0rem;
+   right:0.3rem;
+   margin:0;
+   height: 0.88rem;
+}
+.ifo{
+  width: 6.4rem;
+  text-align: center;
+  color:#50bbdb;
+  font-size: 0.24rem;
+  line-height: 0.78rem;
+  border-bottom: 1px solid #dcdcdc;
+  background-image: url(../images/1019.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: 6%;
+  background-size: 6%;
+  background-position: 2.2rem center;
+}
+section{
+  padding:0.15rem 0.32rem 0.3rem 0.4rem;
+}
+section .item:nth-child(2){
+  border-bottom:1px dashed #dcdcdc;
+  padding-bottom: 0.2rem;
+}
+section .item:nth-child(5){
+  border-bottom:1px dashed #dcdcdc;
+  padding-bottom: 0.2rem;
+}
+section .item p{
+  float: left;
+  font-size: 0.22rem;
+  color:#333;
+  line-height: 0.44rem;
+}
+section .item span{
+  float: right;
+  font-size: 0.22rem;
+  color:#333;
+  font-weight: bold;
+  line-height: 0.44rem;
+}
+footer{
+  width: 5.6rem;
+  padding: 0.4rem;
+  height: 3.1rem;
+  background-color: #f6f6f6;
+}
+footer p{
+  font-size: 0.22rem;
+  color:#333;
+  line-height: 0.44rem;
+}
+footer a{
+  display: block;
+  width: 5.42rem;
+  margin:0 auto;
+  color:#50bbdb;
+  font-size: 0.32rem;
+  line-height: 0.69rem;
+  border-radius: 0.05rem;
+  text-align: center;
+  border:1px solid #e5e5e5;
+  margin-top:1rem;
+
+}

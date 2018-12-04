@@ -1,0 +1,61 @@
+header{
+    width: 5.8rem;
+    line-height: 0.88rem;
+    background-color: #50bbdb;
+    padding: 0rem 0.3rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color:#fff;
+    position:relative;
+}
+header a{
+   display: block;
+   width: 0.43rem;
+   height: 0.43rem;
+   background-image: url(../images/back.png);
+   background-repeat: no-repeat;
+   -webkit-background-size: 100%;
+   background-size: 100%;
+   position:absolute;
+   margin-top: 0.22rem;
+}
+header a:last-child{
+   background: none;
+   font-size: 0.2rem;
+   color:#fff;
+   position:absolute;
+   top:0rem;
+   right:0.3rem;
+   margin:0;
+   height: 0.88rem;
+}
+section .lxr{
+    width: 6.04rem;
+    height: 3rem;
+    background-color: #fff;
+    margin:0 auto;
+    border-radius: 0.1rem;
+}
+section .lxr p{
+   color:#333;
+   font-size: 0.2rem;
+   line-height: 0.35rem;
+   border-bottom: 1px solid #dcdcdc;
+   margin-top: 0.1rem;
+   padding-left: 0.2rem;
+}
+section .lxr p span{
+    color:#50bbdb;
+    font-size: 0.26rem;
+}
+section .lxr p input{
+    border:none;
+    outline: none;
+    color:#333;
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+    padding-left: 0.1rem;
+}
+section .lxr p:nth-child(2) input{
+    margin-left: 0.6rem;
+}

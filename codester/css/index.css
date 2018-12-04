@@ -1,0 +1,551 @@
+/*rem单位 默认1rem=16px 1rem相当于根目录(html body)字号大小 rem单位可以给所有样式当单位*/
+/*根据屏幕的宽度和设计稿的尺寸动态设置 html 的font-size 以下设计稿的尺寸为640  6.4rem相当于屏幕的宽度*/
+/*注意 有时候行元素设置了 font-size(line-height)单位 rem 之后 本身占的位置变得很大 变成块*/
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix{
+    *+height:1%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+body{
+    font-family: Arial;
+    padding-top: 41px;
+}
+.top{
+    width: 100%;
+    background-image: url(../images/PC_02.jpg);
+    background-repeat: repeat-x;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+.top .top-inner{
+    width: 1170px;
+    margin:0 auto;
+}
+.top .top-inner .home{
+    float: left;
+    border-right: 1px solid #111;
+}
+.top .top-inner .home a{
+    display: block;
+    width: 56px;
+    height: 41px;
+    background-image: url(../images/tm/tm_home.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.top .top-inner ul{
+    float: left;
+    border-left: 1px solid #222;
+    border-right: 1px solid #111;
+    padding:0px 25px;
+}
+.top .top-inner ul li{
+    float: left;
+}
+.top .top-inner ul li+li{
+    margin-left: 30px;
+}
+.top .top-inner ul li a{
+    display: block;
+    line-height: 41px;
+    font-size: 14px;
+    color:#9f9f9d;
+    /*font-weight: bold;*/
+}
+.top .top-inner ul li a:hover{
+    color:#ccc;
+}
+.top .top-inner ul:nth-child(3){
+    border-right: none;
+    background-image: url(../images/PC_13.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.top .top-inner p{
+    float: right;
+    line-height: 41px;
+    color:#020100;
+    font-size: 20px;
+    text-shadow: 0px 1px 0px #313332;
+    font-weight: bold;
+}
+header{
+    width: 100%;
+}
+header nav{
+    width: 100%;
+    background-image: url(../images/PC_06.jpg);
+    background-repeat: repeat-x;
+}
+header nav .nav-inner{
+    width: 1170px;
+    margin:0 auto;
+}
+header nav .nav-inner .logo{
+    float: left;
+    padding-left: 12px;
+}
+header nav .nav-inner .logo h1 a{
+    display: block;
+    width: 322px;
+    height: 84px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+header nav .nav-inner>ul{
+    float: right;
+}
+header nav .nav-inner>ul>li{
+    float: left;
+    position:relative;
+    margin-left: 15px;
+}
+header nav .nav-inner>ul>li>a{
+    display: block;
+    color:#fefeff;
+    line-height: 84px;
+    padding:0px 22px;
+    position:relative;
+}
+header nav .nav-inner>ul>li>a>span{
+   display: block;
+   width: 9px;
+   height: 6px;
+   background-image: url(../images/123.png);
+   background-repeat: no-repeat;
+   position:absolute;
+   top:60px;
+   left:55px;
+}
+header nav .nav-inner>ul>li:first-child>a{
+    background-image: url(../images/PC_08.jpg);
+    background-repeat: repeat-x;
+}
+header nav .nav-inner>ul>li:hover>a{
+    background-image: url(../images/PC_08.jpg);
+    background-repeat: repeat-x;
+}
+header nav .nav-inner>ul>li:hover>a>span{
+    background-image: url(../images/321.png);
+}
+header nav .nav-inner>ul>li ul{
+    position:absolute;
+    top: 84px;
+    left:-25px;
+    background-color: #111;
+    opacity: 0;
+    overflow:hidden;
+    transition: opacity 0.5s;
+}
+header nav .nav-inner>ul>li:hover ul{
+    opacity: 1;
+}
+header nav .nav-inner>ul>li ul li{
+    height: 0;
+    overflow:hidden;
+    transition: height 0.5s;
+}
+header nav .nav-inner>ul>li ul li a{
+    width: 170px;
+    line-height: 43px;
+    display: block;
+    color:#fefeff;
+    text-align: center;
+}
+header nav .nav-inner>ul>li:hover ul li{
+    height: 43px;
+}
+header nav .nav-inner>ul>li ul li a:hover{
+    background-color: #4a1c08;
+}
+header .banner{
+    width: 100%;
+    background-image: url(../images/PC_15.jpg);
+    background-repeat: repeat-x;
+}
+header .banner .banner-inner{
+    width: 1170px;
+    height: 582px;
+    margin:0 auto;
+    padding-top: 40px;
+}
+header .banner .banner-inner img{
+    float: left;
+    display: block;
+    transition: all 1s;
+    margin-bottom: 55px;
+}
+header .banner .banner-inner img:hover{
+    transform: translateX(-100px);
+}
+header .banner .banner-inner img:nth-child(2){
+    margin-left: -670px;
+    z-index: 2;
+}
+header .banner .banner-inner img:nth-child(3){
+    margin-left: -670px;
+    z-index: 3;
+}
+header .banner .banner-inner img:nth-child(4){
+    margin-left: -670px;
+    z-index: 4;
+}
+header .banner .banner-inner img:nth-child(5){
+    margin-left: -670px;
+    z-index: 5;
+}
+header .banner .banner-inner h2{
+   font-size: 46px;
+   color:#f25c27;
+   float: left;
+}
+header .banner .banner-inner .words{
+    float: right;
+    border-left: 1px solid #454545;
+}
+header .banner .banner-inner .words p{
+    color:#70706e;
+    line-height: 20px;
+    padding:0px 25px;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+header .banner .banner-inner .words a{
+    display: block;
+    width: 155px;
+    line-height: 30px;
+    color:#fffdfe;
+    text-align: center;
+    background-image: url(../images/PC_16.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    margin:0 auto;
+    transition:all 500ms;
+}
+header .banner .banner-inner .words a:hover{
+    background-image: url(../images/pc17.jpg);
+}
+section{
+    width: 100%;
+}
+section .main-up{
+    width: 100%;
+}
+section .main-up-inner{
+    width: 1170px;
+    margin:0 auto;
+    padding: 30px 0px;
+}
+section .main-up-inner a{
+    display: block;
+    float: left;
+    margin-top: 30px;
+    position:relative;
+}
+section .main-up-inner a+a{
+    margin-left: 30px;
+}
+section .main-up-inner a:nth-child(6){
+    margin-left: 0px;
+}
+section .main-up-inner a img{
+    display: block;
+}
+section .main-up-inner a span{
+    display: block;
+    width: 270px;
+    height: 192px;
+    background-color: #000;
+    position:absolute;
+    top:0px;
+    opacity:0;
+    background-image: url(../images/magnifier.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition:opacity 300ms;
+}
+section .main-up-inner a:hover span{
+    opacity:0.6;
+}
+section .main-up-inner h2{
+    font-size: 42px;
+    color:#f25c27;
+    font-family: "宋体";
+}
+section .main-mid{
+    width: 100%;
+    height: 183px;
+    background-image: url(../images/PC_34.jpg);
+    background-repeat: repeat-x;
+    text-align: center;
+    padding-top: 22px;
+}
+section .main-mid p{
+    font-size: 30px;
+    color:#f25c27;
+    line-height: 44px;
+}
+section .main-mid i{
+    color:#716f72;
+    margin-top: 6px;
+    display: block;
+}
+section .main-mid a{
+    display: block;
+    width: 90px;
+    line-height: 30px;
+    color:#fffdfe;
+    text-align: center;
+    background-image: url(../images/PC_16.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    margin:0 auto;
+    transition:all 500ms;
+    margin-top: 24px;
+}
+section .main-mid a:hover{
+    background-image: url(../images/pc17.jpg);
+}
+section .main-down{
+    width: 100%;
+}
+section .main-down-inner{
+    width: 1170px;
+    margin:0 auto;
+    padding: 30px 0px;
+}
+section .main-down-inner h2{
+    font-size: 42px;
+    color:#f25c27;
+    font-weight: normal;
+}
+section .main-down-inner .content{
+    float: left;
+    margin-top: 38px;
+}
+section .main-down-inner .content+.content{
+    margin-left: 30px;
+}
+section .main-down-inner h3{
+    font-size: 26px;
+    color:#f25c27;
+    font-weight: normal;
+}
+section .main-down-inner img{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section .main-down-inner h4{
+    color:#f25c27;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+section .main-down-inner span:nth-child(4){
+    display: block;
+    font-size: 12px;
+    color:#706f6b;
+    background-image: url(../images/111.jpg);
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    float: left;
+    margin-top: 4px;
+}
+section .main-down-inner span:nth-child(5){
+    display: block;
+    color:#7f7f7f;
+    float: left;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+section .main-down-inner span:nth-child(6){
+    display: block;
+    font-size: 12px;
+    color:#f25c27;
+    background-image: url(../images/222.jpg);
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    float: left;
+    margin-top: 4px;
+}
+section .main-down-inner span:nth-child(7){
+    display: block;
+    font-size: 12px;
+    color:#f25c27;
+    background-image: url(../images/333.jpg);
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    margin-top: 4px;
+    float: right;
+}
+section .main-down-inner p{
+    color:#71706e;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+section .main-down-inner a{
+    display: block;
+    width: 90px;
+    line-height: 30px;
+    color:#fffdfe;
+    text-align: center;
+    background-image: url(../images/PC_16.jpg);
+    background-repeat: repeat-x;
+    font-size: 14px;
+    transition:all 500ms;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section .main-down-inner a:hover{
+    background-image: url(../images/pc17.jpg);
+}
+footer{
+    width: 100%;
+}
+footer .footer-up{
+    width: 100%;
+    background-image: url(../images/PC_23.jpg);
+    background-repeat: repeat-x;
+}
+footer .footer-up .footer-up-inner{
+    width: 1170px;
+    height: 256px;
+    margin:0 auto;
+    padding:30px 0px;
+}
+footer .footer-up .footer-up-inner .left{
+    float: left;
+}
+footer .footer-up .footer-up-inner .left h3{
+    font-size: 26px;
+    color:#f25c27;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+footer .footer-up .footer-up-inner .left img{
+    display: block;
+    float: left;
+}
+footer .footer-up .footer-up-inner .left .words{
+    float: left;
+}
+footer .footer-up .footer-up-inner .left .words p{
+    line-height: 20px;
+    color:#fefefc;
+    margin-top: 12px;
+    margin-left: 28px;
+}
+footer .footer-up .footer-up-inner .left .words p:last-child{
+    color:#707070;
+}
+footer .footer-up .footer-up-inner .right{
+    float: left;
+    margin-left: 40px;
+}
+footer .footer-up .footer-up-inner .right h3{
+    font-size: 26px;
+    color:#f25c27;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+footer .footer-up .footer-up-inner .right ul{
+    float: left;
+}
+footer .footer-up .footer-up-inner .right ul+ul{
+    margin-left: 50px;
+}
+footer .footer-up .footer-up-inner .right ul li{
+   margin-top: 15px;
+   background-image: url(../images/666.jpg);
+   background-repeat: no-repeat;
+   background-position: 0 center;
+   padding-left: 15px;
+}
+footer .footer-up .footer-up-inner .right ul li a{
+    color:#f25c27;
+}
+footer .footer-up .footer-up-inner .right ul li a:hover{
+    color:#fefefe;
+}
+footer .footer-down{
+    width: 100%;
+}
+footer .footer-down .footer-down-inner{
+    width: 1170px;
+    margin:0 auto;
+}
+footer .footer-down .footer-down-inner p{
+    float: left;
+    line-height: 73px;
+    font-size: 14px;
+}
+footer .footer-down .footer-down-inner p span{
+    color:#f25c27;
+    border-left: 1px solid #111;
+    border-right: 1px solid #111;
+    padding:0px 6px;
+}
+footer .footer-down .footer-down-inner p span:first-child{
+    border-right: none;
+    margin-left: 6px;
+}
+footer .footer-down .footer-down-inner p span:last-child{
+    border: none;
+}
+footer .footer-down .footer-down-inner .share{
+    float: right;
+    margin-top: 20px;
+}
+footer .footer-down .footer-down-inner .share a{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    background-image: url(../images/soc-icon-1.png);
+}
+footer .footer-down .footer-down-inner .share a:nth-child(2){
+    background-image: url(../images/soc-icon-2.png);
+}
+footer .footer-down .footer-down-inner .share a:nth-child(3){
+    background-image: url(../images/soc-icon-3.png);
+}
+footer .footer-down .footer-down-inner .share a:nth-child(4){
+    background-image: url(../images/soc-icon-4.png);
+}
+footer .footer-down .footer-down-inner .share a:hover{
+    background-position: 0 -30px;
+}
+.triangle{
+    position: fixed;
+    top:41px;
+    right:0;
+    width: 42px;
+    height: 42px;
+    background-image: url(../images/tm/pro_button.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+

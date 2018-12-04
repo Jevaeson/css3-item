@@ -1,0 +1,125 @@
+header{
+    width: 5.8rem;
+    line-height: 0.88rem;
+    background-color: #50bbdb;
+    padding: 0rem 0.3rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color:#fff;
+}
+header a{
+   display: block;
+   width: 0.43rem;
+   height: 0.43rem;
+   background-image: url(../images/back.png);
+   background-repeat: no-repeat;
+   -webkit-background-size: 100%;
+   background-size: 100%;
+   position:absolute;
+   margin-top: 0.22rem;
+}
+img{
+  display: block;
+  width: 6.4rem;
+  height: 5.03rem;
+}
+.up{
+  padding:0.17rem 0rem 0.17rem 0.34rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.up span{
+  display: block;
+  float: left;
+  color:#111;
+  font-size: 0.24rem;
+}
+.up span:nth-child(3){
+  margin-left: 1.6rem;
+
+}
+.up i{
+  display: block;
+  float: left;
+  color:#f4a353;
+  font-size: 0.24rem;
+  margin-left: 0.48rem;
+}
+.up img{
+  display: block;
+  width: 0.23rem;
+  height: 0.23rem;
+  float: left;
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+}
+.up i:nth-child(5){
+  margin-left: 0rem;
+}
+.up ul{
+  float: left;
+  border:1px solid #8ad2e7;
+  border-radius: 0.05rem;
+  overflow: hidden;
+  margin-top: 0.1rem;
+}
+.up ul:nth-child(7){
+  margin-left: 1.6rem;
+}
+.up ul li{
+  float: left;
+}
+.up ul li a{
+  color:#50bbdb;
+  font-size: 0.24rem;
+  display: block;
+  background-color: #fff;
+  line-height: 0.47rem;
+  padding:0rem 0.2rem;
+}
+.up ul li:nth-child(2) a{
+  color:#fff;
+  background-color: #50bbdb;
+  padding:0rem 0.26rem;
+}
+.mid{
+  border-bottom: 0.52rem solid #ededed;
+}
+.mid img{
+  display: block;
+  width: 0.23rem;
+  height: 0.23rem;
+  float: left;
+  margin-left: 0.34rem;
+  margin-right: 0.15rem;
+  margin-top: 0.2rem;
+}
+.mid p{
+  color:#666;
+  font-size: 0.18rem;
+  line-height: 0.61rem;
+  float: left;
+}
+.down{
+  border-top: 1px solid #dcdcdc;
+  padding:0.1rem 0.2rem 0.15rem 0.15rem;
+  overflow:hidden;
+}
+.down .words{
+  float: left;
+}
+.down .words p{
+  color:#333;
+  font-size: 0.24rem;
+  line-height: 0.35rem;
+}
+.down a{
+  float: right;
+  display: block;
+  line-height: 0.66rem;
+  color:#fff;
+  font-size: 0.28rem;
+  padding:0rem 0.6rem;
+  background-color: #50bbdb;
+  border-radius: 0.05rem;
+  margin-top: 0.05rem;
+}

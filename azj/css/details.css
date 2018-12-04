@@ -1,0 +1,641 @@
+header{
+    width: 6.4rem;
+}
+header .top{
+    width: 5.8rem;
+    line-height: 0.88rem;
+    background-color: #50bbdb;
+    padding: 0rem 0.3rem;
+    text-align: center;
+    font-size: 0.36rem;
+    color:#fff;
+}
+header .top a{
+   display: block;
+   width: 0.43rem;
+   height: 0.43rem;
+   background-image: url(../images/back.png);
+   background-repeat: no-repeat;
+   -webkit-background-size: 100%;
+   background-size: 100%;
+   position:absolute;
+   margin-top: 0.22rem;
+}
+header .banner{
+    width: 6.4rem;
+    position:relative;
+}
+header .banner img{
+    display: block;
+    width: 6.4rem;
+}
+header .banner p{
+    font-size: 0.3rem;
+    color: #fff;
+    width: 6.1rem;
+    line-height: 0.53rem;
+    padding-left: 0.3rem;
+    background-color: #000;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+header .bottom{
+    width: 6.4rem;
+    height: 3.07rem;
+    background-color: #e5e5e5;
+    position:relative;
+}
+header .bottom .pay{
+    width: 6.1rem;
+    height: 0.93rem;
+    background-color: #fff;
+    padding-left: 0.3rem;
+    padding-top: 0.18rem;
+    position:relative;
+}
+header .bottom .pay h2{
+   color:#333;
+   font-size: 0.28rem;
+}
+header .bottom .pay p{
+   color:#f0851a;
+   font-size: 0.28rem;
+   margin-top: 0.15rem;
+}
+header .bottom .pay p span:first-child{
+    font-size: 0.18rem;
+}
+header .bottom .pay p span:last-child{
+    font-size: 0.16rem;
+    color:#ccc;
+}
+header .bottom .pay a{
+    display: block;
+    width: 0.71rem;
+    height: 0.71rem;
+    background-image: url(../images/link.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position:absolute;
+    right:0;
+    top:0.18rem;
+}
+header .bottom .date{
+    width: 5.8em;
+    height: 0.82rem;
+    margin:0 auto;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    margin-top: 0.35rem;
+    padding:0.2rem;
+    position:relative;
+}
+header .bottom .date h3{
+    font-size: 0.28rem;
+    color:#333;
+}
+header .bottom .date span{
+    font-size: 0.2rem;
+    display: block;
+    border:1px solid #ccc;
+    float: left;
+    padding:0.05rem 0.1rem;
+    margin-top: 0.2rem;
+}
+header .bottom .date span:nth-child(3){
+    margin-left: 0.15rem;
+}
+header .bottom .date a{
+    display: block;
+    width: 0.54rem;
+    height: 0.54rem;
+    background-image: url(../images/more.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position:absolute;
+    right:0;
+    top:0.3rem;
+}
+header .bottom .circle{
+    width: 6.4rem;
+    height: 0.14rem;
+    background-image: url(../images/longbg.png);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:1.02rem;
+}
+section{
+    width: 6.4rem;
+}
+section .title{
+    width: 6.4rem;
+    padding-bottom: 0.32rem;
+}
+section .title ul{
+    width: 6.4rem;
+    height: 0.62rem;
+    border-bottom: 1px solid #ccc;
+    position:relative;
+}
+section .title ul li{
+    position:absolute;
+    top:-1px;
+}
+section .title ul li:nth-child(2){
+    left: 2.35rem;
+}
+section .title ul li:nth-child(3){
+    right:0rem;
+}
+section .title ul li a{
+    display: block;
+    font-size: 0.25rem;
+    color:#111;
+    font-weight: bold;
+    line-height: 0.62rem;
+    padding:0rem 0.35rem;
+}
+section .title ul li:first-child a{
+    color:#50bbdb;
+    border-bottom: 3px solid #39a1c0;
+}
+section .title ul li a:hover{
+    color:#50bbdb;
+    border-bottom: 3px solid #39a1c0;
+}
+section .feature{
+    width: 6.4rem;
+    padding-bottom: 0.3rem;
+}
+section .feature .l-title{
+    width: 6.4rem;
+    background-image: url(../images/2line.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height:0.46rem;
+}
+section .feature .content{
+    padding:0.3rem;
+}
+section .feature .content p{
+    color:#333;
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+}
+section .feature .content p span{
+    font-weight: bold;
+}
+section .feature .content p:nth-child(1) span{
+    float: left;
+}
+section .feature .content p:nth-child(1) span:last-child{
+    margin-left: 0.41rem;
+}
+section .feature .content p:nth-child(4) span:last-child{
+    margin-left: 1.02rem;
+    font-weight: normal;
+}
+section .feature .content img{
+    display: block;
+    width: 100%;
+    margin-top: 0.18rem;
+}
+section .feature .border{
+    width: 6.4rem;
+    height: 0.22rem;
+    background-color: #d4d4d4;
+}
+section .intro{
+    width: 6.4rem;
+    padding-bottom: 0.3rem;
+}
+section .intro .l-title{
+    width: 6.4rem;
+    background-image: url(../images/2line.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height:0.46rem;
+}
+section .intro .content{
+    padding:0.3rem 0.3rem 0.3rem 0.22rem;
+    border-left: 1px dashed #d2d2d2;
+    margin-left: 0.41rem;
+    position:relative;
+}
+section .intro .content h2{
+    width: 4.68rem;
+    color:#50bbdb;
+    border-bottom: 1px solid #50bbdb;
+    font-size: 0.28rem;
+    line-height: 0.48rem;
+    margin-top: -0.1rem;
+}
+section .intro .content img:nth-child(2){
+    display: block;
+    width: 0.24rem;
+    height: 0.65rem;
+    position:absolute;
+    top:0rem;
+    left:-0.13rem;
+}
+section .intro .content h3{
+    float: left;
+    width: 2.34rem;
+    color:#333;
+    font-size: 0.26rem;
+    line-height: 0.68rem;
+    border-bottom: 1px dashed #d2d2d2;
+    margin-bottom: 0.2rem;
+}
+section .intro .content img:nth-child(5){
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    position:absolute;
+    top:1rem;
+    left:-0.0555rem;
+}
+section .intro .content p{
+    font-size: 0.2rem;
+    color:#666;
+    float: left;
+    line-height: 0.35rem;
+}
+section .intro .content p span{
+    color:#333;
+}
+section .intro .content img:nth-child(9){
+    display: block;
+    width: 0.24rem;
+    height: 0.65rem;
+    position:absolute;
+    top:3.73rem;
+    left:-0.13rem;
+}
+section .intro .content img:nth-child(12){
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    position:absolute;
+    top:4.75rem;
+    left:-0.0555rem;
+}
+section .intro .content img:nth-child(14){
+    display: block;
+    width: 100%;
+    margin-top: 0.13rem;
+}
+section .intro .content img:nth-child(15){
+    display: block;
+    width: 100%;
+    margin-top: 0.13rem;
+    margin-bottom: 0.5rem;
+}
+section .intro .content img:nth-child(17){
+    display: block;
+    width: 0.24rem;
+    height: 0.65rem;
+    position:absolute;
+    top:16.82rem;
+    left:-0.13rem;
+}
+section .intro .content img:nth-child(20){
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    position:absolute;
+    top:17.82rem;
+    left:-0.0555rem;
+}
+section .intro .content img:nth-child(22){
+    display: block;
+    width: 100%;
+    margin-top: 0.13rem;
+}
+section .intro .content img:nth-child(23){
+    display: block;
+    width: 100%;
+    margin-top: 0.13rem;
+}
+section .intro .border{
+    width: 6.4rem;
+    height: 0.22rem;
+    background-color: #d4d4d4;
+}
+section .notice .l-title{
+    width: 6.4rem;
+    background-image: url(../images/2line.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height:0.46rem;
+}
+section .notice .content{
+    padding:0.3rem;
+}
+section .notice .content h3{
+   font-size: 0.22rem;
+   color:#333;
+   line-height: 0.24rem;
+}
+section .notice .content h3:nth-child(2){
+    margin-top: 0.2rem;
+}
+section .notice .content h3:nth-child(4){
+    margin-top: 0.2rem;
+}
+section .notice .content h3:nth-child(6){
+    margin-top: 0.2rem;
+}
+section .notice .content h3:nth-child(8){
+    margin-top: 0.2rem;
+}
+section .notice .content h3:nth-child(10){
+    margin-top: 0.2rem;
+}
+section .notice .content p{
+    font-size: 0.2rem;
+    color:#666;
+    line-height: 0.28rem;
+}
+section .team .l-title{
+    width: 6.4rem;
+    background-image: url(../images/2line.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height:0.46rem;
+}
+section .team a:nth-child(2){
+    display: block;
+    width: 5.8rem;
+    padding:0rem 0.3rem;
+}
+section .team a:last-child{
+    display: block;
+    width: 5.8rem;
+    padding:0rem 0.3rem;
+    background-color: #fff;
+    background-image: url(../images/lang.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 20%;
+    background-size: 20%;
+    background-position: 0.3rem 0.05rem;
+
+}
+section .team a h3{
+    font-size: 0.2rem;
+    color:#444;
+    line-height: 0.48rem;
+    border-bottom: 1px dashed #dcdcdc;
+    background-image: url(../images/rifht.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 2%;
+    background-size: 2%;
+    background-position: right center;
+}
+section .team a p{
+    color:#b8b8b8;
+    font-size: 0.2rem;
+    line-height: 0.28rem;
+    float: right;
+    margin-top: 0.3rem;
+    margin-bottom: 0.58rem;
+}
+section .discuss .l-title{
+    width: 6.4rem;
+    background-image: url(../images/2line.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height:0.46rem;
+}
+section .discuss .top{
+    padding:0.22rem 0.3rem;
+    border-bottom: 1px solid #ccc;
+}
+section .discuss .top span{
+    float: left;
+    color:#333;
+    font-size: 0.2rem;
+}
+section .discuss .top span:nth-child(3){
+    padding-left: 0.42rem;
+    border-left: 1px solid #ccc;
+}
+section .discuss .top span:nth-child(4){
+    padding-left: 0.42rem;
+    margin-left: 0.42rem;
+    border-left: 1px solid #ccc;
+}
+section .discuss .top img{
+    width: 1.1rem;
+    height: 0.19rem;
+    display: block;
+    float: left;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+section .discuss .mid{
+    padding:0.15rem 0.3rem;
+    border-bottom: 14px solid #ccc;
+}
+section .discuss .mid ul{
+    border-bottom: 1px dashed #ccc;
+    padding:0.25rem 0rem;
+    background-image: url(../images/yellow.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 10%;
+    background-size: 10%;
+    background-position: 0 center;
+    padding-left: 0.8rem;
+}
+section .discuss .mid ul li{
+    float: left;
+    color:#333;
+    font-size: 0.2rem;
+}
+section .discuss .mid ul li:nth-child(2){
+    margin-left: 0.3rem;
+}
+section .discuss .mid ul li:nth-child(3){
+    margin-left: 0.1rem;
+}
+section .discuss .mid ul li span{
+    float: left;
+}
+section .discuss .mid ul li img{
+    width: 1.1rem;
+    height: 0.19rem;
+    display: block;
+    float: left;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+section .discuss .mid p{
+    color:#666;
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+    margin-top: 0.15rem;
+}
+section .discuss .mid img{
+    float: left;
+    display: block;
+    width: 1.05rem;
+    height: 0.64rem;
+}
+section .discuss .mid img:last-child{
+    margin-left: 0.06rem;
+}
+section .discuss .down{
+    padding:0rem 0.3rem 0.3rem 0.3rem;
+}
+section .discuss .down ul{
+    border-bottom: 1px dashed #ccc;
+    padding:0.25rem 0rem;
+    background-image: url(../images/yellow.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 10%;
+    background-size: 10%;
+    background-position: 0 center;
+    padding-left: 0.8rem;
+}
+section .discuss .down ul li{
+    float: left;
+    color:#333;
+    font-size: 0.2rem;
+}
+section .discuss .down ul li:nth-child(2){
+    margin-left: 0.3rem;
+}
+section .discuss .down ul li:nth-child(3){
+    margin-left: 0.1rem;
+}
+section .discuss .down ul li span{
+    float: left;
+}
+section .discuss .down ul li img{
+    width: 1.1rem;
+    height: 0.19rem;
+    display: block;
+    float: left;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+section .discuss .down p{
+    color:#666;
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+    margin-top: 0.15rem;
+}
+section .discuss .down>span{
+    color:#666;
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+    margin-top: 0.15rem;
+    display: block;
+    float: left;
+}
+section .discuss .down p:nth-child(4){
+    float: left;
+    width: 4.7rem;
+}
+section .discuss .down p:nth-child(6){
+    float: left;
+    width: 4.7rem;
+}
+section .discuss .down p:nth-child(8){
+    float: left;
+    width: 4.7rem;
+}
+section .discuss .down img{
+    float: left;
+    display: block;
+    width: 1.05rem;
+    height: 0.64rem;
+}
+section .discuss .down>img:nth-child(9){
+    margin-left: 1rem;
+}
+
+section .discuss .down>img:last-child{
+    margin-left: 0.06rem;
+}
+section .discuss .reply{
+    padding:0.3rem;
+    background-color: #f4f4f4;
+    border-bottom: 0.3rem solid #fff;
+}
+section .discuss .reply span{
+    color:#ea581b;
+    font-size: 0.16rem;
+    display: block;
+}
+section .discuss .reply p{
+    color:#333;
+    font-size: 0.18rem;
+    width: 4.1rem;
+    float: right;
+    line-height: 0.25rem;
+    margin-right: 0.3rem;
+}
+footer{
+    border-top: 14px solid #ccc;
+}
+footer a{
+    display: block;
+    height: 0.98rem;
+    float: left;
+    font-size: 0.2rem;
+    color:#333;
+}
+footer a:nth-child(1){
+    width: 1.59rem;
+    height:0.23rem;
+   background-image: url(../images/heartt.png);
+   -webkit-background-size: 20%;
+   background-size: 20%;
+   background-repeat: no-repeat;
+   background-position: center 0.15rem;
+   padding:0.55rem 0rem 0.2rem 0rem;
+   text-align: center;
+}
+footer a:nth-child(2){
+   width: 1.6rem;
+   height:0.23rem;
+   background-image: url(../images/calll.png);
+   -webkit-background-size: 15%;
+   background-size: 15%;
+   background-repeat: no-repeat;
+   background-position: center 0.16rem;
+   padding:0.55rem 0rem 0.2rem 0rem;
+   text-align: center;
+}
+footer a:nth-child(3){
+    width: 3.2rem;
+    background-color: #50bbdb;
+    color:#fff;
+    font-size: 0.28rem;
+    line-height: 0.98rem;
+    text-align: center;
+}
+
+

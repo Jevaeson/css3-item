@@ -1,0 +1,287 @@
+/*rem单位 默认1rem=16px 1rem相当于根目录(html body)字号大小 rem单位可以给所有样式当单位*/
+/*根据屏幕的宽度和设计稿的尺寸动态设置 html 的font-size 以下设计稿的尺寸为640  6.4rem相当于屏幕的宽度*/
+/*注意 有时候行元素设置了 font-size(line-height)单位 rem 之后 本身占的位置变得很大 变成块*/
+.wrap{
+    width: 6.4rem;
+}
+header{
+    width: 6.4rem;
+}
+header .top{
+    width: 6.1rem;
+    background-color: #50bbdb;
+    padding: 0rem 0.15rem;
+}
+header .top>a:nth-child(1){
+    display: block;
+    width: 0.56rem;
+    height: 0.56rem;
+    background-image: url(../images/location.png);
+    -webkit-background-size: 75%;
+    background-size: 75%;
+    background-repeat:no-repeat;
+    background-position: center center;
+    float: left;
+    border:2px solid #fff;
+    border-radius: 50%;
+    margin-top: 0.15rem;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+header .top>span{
+    font-size: 0.18rem;
+    float: left;
+    line-height: 0.88rem;
+    display: block;
+    color:#fff;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+}
+header .top ul{
+    float: left;
+    border:1px solid #fff;
+    border-radius: 0.1rem;
+    margin-top: 0.22rem;
+    overflow: hidden;
+    margin-left: 0.22rem;
+}
+header .top ul li{
+    float: left;
+}
+header .top ul li a{
+    font-size: 0.26rem;
+    display: block;
+    color:#fff;
+    padding:0rem 0.35rem;
+    line-height: 0.35rem;
+}
+header .top ul li a:hover{
+    color:#50bbdb;
+    background-color: #fff;
+}
+header .top ul li:first-child a{
+    color:#50bbdb;
+    background-color: #fff;
+}
+header .top>a:nth-child(4){
+    display: block;
+    width: 0.56rem;
+    height: 0.56rem;
+    background-image: url(../images/cam.png);
+    -webkit-background-size: 75%;
+    background-size: 75%;
+    background-repeat:no-repeat;
+    background-position: center center;
+    float: right;
+    border:2px solid #fff;
+    border-radius: 50%;
+    margin-top: 0.15rem;
+}
+header .banner{
+    position:relative;
+}
+header .banner a{
+    display: block;
+    outline:none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    /*取消移动端a标签点击有阴影*/
+}
+header .banner a:focus {outline:none;}
+
+header .banner a img{
+    display: block;
+    width: 6.4rem;
+    height: 2.24rem;
+}
+header .banner #search{
+    width: 3.9rem;
+    height: 0.43rem;
+    font-size: 0.3rem;
+    border:1px solid #87cee5;
+    border-radius: 0.1rem;
+    position:absolute;
+    top:0.12rem;
+    left:1.2rem;
+    outline:0;
+    background-color: rgba(255,255,255,0.1);
+    padding-left: 0.08rem;
+}
+header .banner .search{
+    width: 0.26rem;
+    height: 0.26rem;
+    display: block;
+    background-image: url(../images/fdj.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position:absolute;
+    top:0.3rem;
+    right:1.4rem;
+}
+section{
+    width: 6.4rem;
+}
+section .main-inner{
+    width: 6.2rem;
+    margin:0 auto;
+    padding-bottom: 0.8rem;
+}
+section .main-inner .main-up{
+    padding:0.33rem 0rem;
+}
+section .main-inner .main-up a{
+    display: block;
+    width: 1.24rem;
+    line-height: 1.24rem;
+    text-align: center;
+    border:2px solid #50bbdb;
+    font-size: 0.28rem;
+    color:#50bbdb;
+    float: left;
+    border-radius: 50%;
+    margin-left: 0.55rem;
+}
+section .main-inner .main-up a+a{
+    color:#999;
+    border:2px solid #999;
+}
+section .main-inner .main-mid a{
+    width: 6.2rem;
+    height: 1.95rem;
+    display: block;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position:relative;
+    overflow:hidden;
+    margin-bottom: 0.09rem;
+}
+section .main-inner .main-mid a h2{
+    font-size: 0.24rem;
+    color:#fff;
+    width: 6rem;
+    line-height: 0.48rem;
+    padding-left: 0.2rem;
+    background-color: #000;
+    background: rgba(0,0,0,0.2);
+    position:absolute;
+    top:0;
+    left:0;
+}
+section .main-inner .main-mid a h3{
+    font-size: 0.2rem;
+    color:#fff;
+    width: 6rem;
+    line-height: 0.48rem;
+    padding-left: 0.2rem;
+    background-color: #000;
+    background: rgba(0,0,0,0.2);
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+section .main-inner .main-mid a .cricle{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f0884d;
+    border:0.05rem solid #fff;
+    border-radius: 50%;
+    position:absolute;
+    bottom:-0.45rem;
+    right:0;
+}
+section .main-inner .main-mid a p{
+    font-size: 0.24rem;
+    color:#fff;
+    position:absolute;
+    bottom:0.1rem;
+    right:0.15rem;
+}
+section .main-inner .main-mid a p span{
+    font-size: 0.12rem;
+}
+section .main-inner .main-down a{
+    display: block;
+    line-height: 0.69rem;
+    color:#666;
+    font-size: 0.2rem;
+    background-color: #f1f1f1;
+    text-align: center;
+    background-image: url(../images/down.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 5%;
+    background-size: 5%;
+    background-position: 3.6rem center;
+}
+footer{
+    width: 6.4rem;
+    position:fixed;
+    bottom:0;
+    background-color: #fff;
+    padding-bottom: 0.1rem;
+}
+footer ul{
+
+}
+footer ul li{
+    float: left;
+}
+footer ul li+li{
+    margin-left: 1.2rem;
+}
+footer ul li:nth-child(1){
+    margin-left: 0.4rem;
+}
+footer ul li a{
+    display: block;
+    font-size: 0.2rem;
+    color:#333;
+}
+footer ul li:nth-child(1) a{
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    padding-top: 0.6rem;
+    color:#50bbdb;
+    background-position: 0 0.1rem;
+}
+footer ul li:nth-child(2) a{
+    background-image: url(../images/paper.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    padding-top: 0.6rem;
+    color:#333;
+    background-position: 0 0.1rem;
+}
+footer ul li:nth-child(2) a:hover{
+    background-image: url(../images/paper2.png);
+    color:#50bbdb;
+}
+footer ul li:nth-child(3) a{
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    padding-top: 0.6rem;
+    color:#333;
+    background-position: 0 0.1rem;
+}
+footer ul li:nth-child(3) a:hover{
+    background-image: url(../images/map2.png);
+    color:#50bbdb;
+}
+footer ul li:nth-child(4) a{
+    background-image: url(../images/people.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 53%;
+    background-size: 53%;
+    padding-top: 0.6rem;
+    color:#333;
+    background-position: center 0.1rem;
+}
+footer ul li:nth-child(4) a:hover{
+    background-image: url(../images/people2.png);
+    color:#50bbdb;
+}

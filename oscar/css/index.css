@@ -1,0 +1,326 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix{
+    *+height:1%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+header{
+    width: 100%;
+}
+@font-face {
+        font-family: my-font;
+        src:url(../fonts/BebasNeue-webfont.eot),
+        /*url(../fonts/BebasNeue-webfont.svg),*/
+        url(../fonts/BebasNeue-webfont.ttf),
+        url(../fonts/BebasNeue-webfont.woff);
+    }
+@font-face {
+        font-family: my-font2;
+        src:url(../fonts/ColabThi-webfont.eot),
+        /*url(../fonts/ColabThi-webfont.svg),*/
+        url(../fonts/ColabThi-webfont.ttf),
+        url(../fonts/ColabThi-webfont.woff);
+}
+@keyframes breath {
+    0% { text-shadow: 0px 0px 0px red; }
+    50%  { text-shadow: 0px 0px 15px blue; }
+    100%   { text-shadow: 0px 0px 0px red; }
+}
+@keyframes circle {
+    10% { transform: rotate(15deg); }
+    20%  { transform: rotate(-10deg);}
+    30%  { transform: rotate(5deg);}
+    40%  { transform: rotate(-5deg);}
+    50%  { transform: rotate(0deg);}
+    100%   { transform: rotate(0deg); }
+}
+@keyframes wobble {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+/*%单位 是按照父级来计算的*/
+/*保留4位 没有四舍五入*/
+/*pc响应式第一步 宽度 width margin padding 换算成百分比*/
+.wrap{
+    width: 94.1176%; /*960/1020*/
+    margin:0 auto;
+}
+.top{
+    width: 94.1176%;
+    height: 63px;
+    background-image: url(../images/buntingFW.png);
+    background-repeat: repeat-x;
+    margin:0 auto;
+    padding-top: 6.6422%; /*75px/1129.13px*/
+}
+.top h1 a{
+    font-family: my-font;
+    font-size: 48px;
+    color:#0d0c0c;
+    text-shadow: 2px 2px 0px #ccc;
+}
+.top h1 a span{
+    color:#dfdada;
+}
+/*利用表格样式做导航*/
+/*前提 table项必须有宽度 其他项不用处理宽度 li也不用浮动*/
+/*必须使用表格的三级display display:table;display:table-row display:table-cell;*/
+nav{
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+nav ul{
+    width: 94.1176%;
+    background-image: url(../images/atwiNavBg.png);
+    background-repeat: repeat-x;
+    margin:0 auto;
+    padding:0px 10px;
+}
+nav ul li{
+    float: left;
+}
+nav ul li+li{
+    margin-left: 13.8%;
+}
+nav ul li a{
+    display: block;
+    font-size: 30px;
+    color:#010001;
+    font-family: my-font;
+    line-height: 42px;
+}
+nav ul li a:hover{
+    animation:breath 900ms alternate ease infinite;
+}
+nav ul li:nth-child(odd) a{
+    color:#fe0208;
+}
+select{
+    border:1px solid red;
+    outline:none;
+    display:none;
+}
+section {
+    width: 100%;
+}
+section .main-inner{
+    width: 94.1176%;
+    margin:0 auto;
+    background-image: url(../images/atwi_mockup_03.jpg);
+    background-repeat: repeat-x;
+    padding-top: 18px;
+    margin-bottom: 20px;
+}
+section .main-left{
+    width: 23.3333%;
+    padding:35px 4.9107% 15px 4.9107%;
+    background-image: url(../images/sidebarBg2.png);
+    box-shadow: 4px 4px 8px #575757;
+    float: right;
+}
+section .main-left h2{
+    color:#060606;
+    font-size: 30px;
+    font-family: my-font;
+    font-weight: normal;
+}
+section .main-left img{
+    width: 44.1964%;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    animation:circle 900ms /*alternate*/ ease infinite;
+}
+section .main-left a{
+    display: block;
+    float: left;
+    width: 49.5098%;
+    line-height: 23px;
+    background-image: url(../images/atwi_mockup_23.jpg);
+    background-repeat: repeat-x;
+    text-align: center;
+    color:#5c5959;
+    font-size: 14px;
+    font-weight: bold;
+    border:1px solid #a19e9e;
+    border-radius: 11px;
+    margin-top: 13px;
+    margin-left: -3%;
+    margin-bottom: 20px;
+    text-shadow: 0px 1px 1px #fff;
+    transition: all 1s;
+    box-shadow: 0px 1px 1px #c9c9c9;
+}
+section .main-left a:hover{
+    box-shadow: 0px 4px 4px #111;
+}
+section .main-left .right1{
+    float: right;
+}
+section .main-left .right2{
+    float: right;
+    margin-right: -3%;
+}
+section .main-right{
+    float: left;
+    width: 65.1937%;
+
+}
+section .main-right img{
+    width: 21.0972%;
+    display: block;
+    float: left;
+}
+section .main-right .words{
+    width: 66.3658%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 2.2222%;
+}
+section .main-right .words h3{
+    font-family: my-font;
+    font-size:102px;
+    color:#0d0c0c;
+    font-weight: normal;
+    text-shadow: 3px 4px 1px #dad7d7;
+}
+section .main-right .words h4{
+    font-size:36px;
+    color:#757474;
+    font-weight: normal;
+    font-family: Arial;
+}
+section .main-right .words p{
+    font-family: my-font2;
+    font-size:30px;
+    color:#757474;
+    font-weight: normal;
+    margin-top: 12px;
+    line-height: 36px;
+}
+section .main-right .words p span{
+    font-weight: bold;
+    color:#757474;
+}
+section .main-right a{
+    width: 61.07054%;
+    display: block;
+    font-family: my-font;
+    font-size: 36px;
+    color:#fff;
+    line-height: 90px;
+    background-image: url(../images/atwi_mockup_06.jpg);
+    background-repeat: repeat-x;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px #8f8f8f;
+    margin-top: 22px;
+    transition:all 500ms;
+}
+section .main-right a span{
+    transition:all 1000ms;
+}
+section .main-right a:hover{
+    color:#111;
+}
+footer{
+    width: 100%;
+}
+footer .footer-inner{
+    width: 94.1176%;
+    height: 87px;
+    margin:0 auto;
+    background-image: url(../images/atwi_mockup_11.jpg);
+    background-repeat: repeat-x;
+    text-align: center;
+    padding-top: 40px;
+}
+footer .footer-inner p{
+    font-family: my-font;
+    font-size: 18px;
+    color:#757474;
+}
+@media screen and (max-width: 768px){
+    select{display: block;
+           margin-left: 20px;
+    }
+    nav{display:none;}
+    section .main-inner .main-right{
+        width: 100%;
+        float:none;
+    }
+    section .main-inner .main-right img{
+        width: 50%;
+        float:none;
+        display: block;
+        margin:0 auto;
+    }
+    section .main-inner .main-right .words{
+        float:none;
+        margin:0 auto;
+    }
+    section .main-inner .main-right .words a{
+        font-size: 26px;
+    }
+    section .main-inner .main-left{
+        width: 100%;
+        float:none;
+        margin-left: -34px;
+    }
+    section .main-left img{
+        animation:none;
+    }
+}
+@media screen and (max-width: 375px){
+    section .main-inner .main-right .words a{
+        font-size: 14px;
+        line-height: 44px;
+    }
+}

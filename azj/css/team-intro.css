@@ -1,0 +1,49 @@
+
+header{
+    width: 5.8rem;
+    line-height: 0.88rem;
+    background-color: #50bbdb;
+    padding: 0rem 0.3rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color:#fff;
+}
+header a{
+   display: block;
+   width: 0.43rem;
+   height: 0.43rem;
+   background-image: url(../images/back.png);
+   background-repeat: no-repeat;
+   -webkit-background-size: 100%;
+   background-size: 100%;
+   position:absolute;
+   margin-top: 0.22rem;
+}
+section{
+   padding:0.2rem 0.4rem 0rem 0.4rem;
+   width: 5.6rem;
+}
+section img{
+    display: block;
+    width: 1.45rem;
+    height: 1.47rem;
+    float: left;
+}
+section h2{
+    float: left;
+    font-size: 0.26rem;
+    color:#333;
+    line-height: 0.66rem;
+    border-bottom: 1px dashed #d0d0d0;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+section p{
+    font-size: 0.2rem;
+    color:#333;
+    line-height: 0.36rem;
+    float: left;
+    border: 1px dashed #d0d0d0;
+    padding:0.15rem 0.1rem;
+    margin-top: 0.2rem;
+}

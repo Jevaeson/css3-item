@@ -1,0 +1,129 @@
+header{
+    width: 5.8rem;
+    line-height: 0.88rem;
+    background-color: #50bbdb;
+    padding: 0rem 0.3rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color:#fff;
+}
+header a{
+   display: block;
+   width: 0.43rem;
+   height: 0.43rem;
+   background-image: url(../images/back.png);
+   background-repeat: no-repeat;
+   -webkit-background-size: 100%;
+   background-size: 100%;
+   position:absolute;
+   margin-top: 0.22rem;
+}
+.l-title{
+    width: 6.4rem;
+    background-image: url(../images/2line.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    line-height:0.46rem;
+}
+section{
+   padding:0.2rem 0.4rem 0rem 0.4rem;
+   width: 5.6rem;
+}
+section img{
+    display: block;
+    width: 1.45rem;
+    height: 1.47rem;
+    float: left;
+}
+section h2{
+    float: left;
+    font-size: 0.26rem;
+    color:#333;
+    line-height: 0.66rem;
+    border-bottom: 1px dashed #d0d0d0;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+section p{
+    font-size: 0.2rem;
+    color:#333;
+    line-height: 0.36rem;
+    float: left;
+    border: 1px dashed #d0d0d0;
+    padding:0.15rem 0.1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.main-mid a{
+    width: 6.2rem;
+    height: 1.95rem;
+    display: block;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position:relative;
+    overflow:hidden;
+    margin-bottom: 0.09rem;
+    margin-left: 0.09rem;
+}
+.main-mid a h2{
+    font-size: 0.24rem;
+    color:#fff;
+    width: 6rem;
+    line-height: 0.48rem;
+    padding-left: 0.2rem;
+    background-color: #000;
+    background: rgba(0,0,0,0.2);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.main-mid a h3{
+    font-size: 0.2rem;
+    color:#fff;
+    width: 6rem;
+    line-height: 0.48rem;
+    padding-left: 0.2rem;
+    background-color: #000;
+    background: rgba(0,0,0,0.2);
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.main-mid a .cricle{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #f0884d;
+    border:0.05rem solid #fff;
+    border-radius: 50%;
+    position:absolute;
+    bottom:-0.45rem;
+    right:0;
+}
+.main-mid a p{
+    font-size: 0.24rem;
+    color:#fff;
+    position:absolute;
+    bottom:0.1rem;
+    right:0.15rem;
+}
+.main-mid a p span{
+    font-size: 0.12rem;
+}
+.main-down a{
+    display: block;
+    line-height: 0.69rem;
+    color:#666;
+    font-size: 0.2rem;
+    background-color: #f1f1f1;
+    text-align: center;
+    background-image: url(../images/down.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 5%;
+    background-size: 5%;
+    background-position: 3.6rem center;
+}

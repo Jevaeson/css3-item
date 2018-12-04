@@ -1,0 +1,162 @@
+header{
+    width: 6.4rem;
+    height: 0.7rem;
+    background-color: #50bbdb;
+    text-align: center;
+    padding-top:0.18rem;
+    position:relative;
+    border-bottom: 1px solid #f5f5f5;
+}
+header h2{
+    color:#fff;
+    font-size: 0.26rem;
+}
+header span{
+    display: block;
+    color:#fff;
+    font-size: 0.18rem;
+    margin-top: 0.08rem;
+}
+header a:nth-child(1){
+    display: block;
+    width: 0.88rem;
+    height: 0.88rem;
+    background-image: url(../images/backk.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position:absolute;
+    top:0rem;
+}
+header a:nth-child(4){
+    display: block;
+    width: 0.78rem;
+    height: 0.88rem;
+    background-image: url(../images/33333.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position:absolute;
+    top:0rem;
+    right:0rem;
+}
+section .item+.item{
+    border-top: 0.17rem solid #f5f5f5;
+}
+section .item img{
+    display: block;
+    float: left;
+    width: 1.8rem;
+    height: 1.68rem;
+}
+section .item .words{
+    float: left;
+    margin-left: 0.3rem;
+}
+section .item .words h3{
+    font-size: 0.24rem;
+    color:#333;
+    font-weight: bold;
+    line-height: 0.44rem;
+}
+section .item .words h4{
+    font-size: 0.24rem;
+    color:#333;
+    line-height: 0.4rem;
+}
+section .item .words h5{
+    font-size: 0.2rem;
+    color:#999;
+    line-height: 0.4rem;
+}
+section .item .words h6{
+    font-size: 0.18rem;
+    color:#333;
+    float: left;
+    padding:0.14rem 0.4rem;
+    background-image: url(../images/tou.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 12%;
+    background-size: 12%;
+    background-position: 0 center;
+}
+section .item .words i{
+    font-size: 0.26rem;
+    color:#ea561d;
+    display: block;
+    float: right;
+    margin-top: 0.1rem;
+}
+section .item .words i span{
+    font-size: 0.12rem;
+}
+footer{
+    width: 6.4rem;
+    position:fixed;
+    bottom:0;
+    background-color: #fff;
+    border-top: 1px solid #d2d2d2;
+    padding-bottom: 0.1rem;
+}
+footer ul li{
+    float: left;
+}
+footer ul li+li{
+    margin-left: 0.8rem;
+}
+footer ul li:nth-child(1){
+    margin-left: 0.4rem;
+}
+footer ul li a{
+    display: block;
+    font-size: 0.2rem;
+    color:#333;
+}
+footer ul li:nth-child(1) a{
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 53%;
+    background-size: 53%;
+    padding-top: 0.6rem;
+    color:#50bbdb;
+    background-position: center 0.1rem;
+}
+footer ul li:nth-child(2) a{
+    background-image: url(../images/paper.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 53%;
+    background-size: 53%;
+    padding-top: 0.6rem;
+    color:#333;
+    background-position: center 0.1rem;
+}
+footer ul li:nth-child(2) a:hover{
+    background-image: url(../images/paper2.png);
+    color:#50bbdb;
+}
+footer ul li:nth-child(3) a{
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 53%;
+    background-size: 53%;
+    padding-top: 0.6rem;
+    color:#333;
+    background-position: center 0.1rem;
+}
+footer ul li:nth-child(3) a:hover{
+    background-image: url(../images/map2.png);
+    color:#50bbdb;
+}
+footer ul li:nth-child(4) a{
+    background-image: url(../images/people.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 53%;
+    background-size: 53%;
+    padding-top: 0.6rem;
+    color:#333;
+    background-position: center 0.1rem;
+}
+footer ul li:nth-child(4) a:hover{
+    background-image: url(../images/people2.png);
+    color:#50bbdb;
+}
